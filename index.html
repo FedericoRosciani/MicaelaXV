@@ -57,17 +57,17 @@
     </div>
   </section>
 
-  <!-- DETAILS (DEGRADADO + 2 COLUMNAS ARRIBA / 1 ABAJO) -->
-  <section class="details">
+<!-- DETAILS (DEGRADADO + 2 COLUMNAS ARRIBA / 1 ABAJO) -->
+<section class="details">
     <div class="details-inner">
-
+  
       <div class="details-grid-top">
         <div class="details-block card">
           <span class="gold-line small"></span>
           <h2>Dress Code</h2>
           <p>Elegante</p>
         </div>
-
+  
         <div class="details-block card">
           <span class="gold-line small"></span>
           <h2>Ubicación</h2>
@@ -75,20 +75,40 @@
           <a class="btn" href="https://maps.google.com" target="_blank" rel="noopener">Ver en Maps</a>
         </div>
       </div>
-
+  
       <div class="details-bottom">
-        <div class="details-block card wide">
+        <!-- Card normal (div) + overlay clickeable -->
+        <div class="details-block card wide card-click">
+  
+          <!-- overlay invisible: toda la tarjeta clickeable -->
+          <a
+            class="card-overlay-link"
+            href="https://wa.me/5491160946172?text=Hola!%20Confirmo%20mi%20asistencia%20a%20los%20XV%20de%20Micaela%20%F0%9F%92%96"
+            target="_blank"
+            rel="noopener"
+            aria-label="Confirmar asistencia por WhatsApp"
+          ></a>
+  
           <span class="gold-line small"></span>
           <h2>Confirmar Asistencia</h2>
           <p>Confirmá tu presencia para poder organizar todo.</p>
-          <a class="btn btn-dark" href="https://wa.me/54911XXXXXXXX" target="_blank" rel="noopener">
+  
+          <!-- botón visible (también link) -->
+          <a
+            class="btn btn-dark"
+            href="https://wa.me/5491160946172?text=Hola!%20Confirmo%20mi%20asistencia%20a%20los%20XV%20de%20Micaela%20%F0%9F%92%96"
+            target="_blank"
+            rel="noopener"
+          >
             Confirmar por WhatsApp
           </a>
+  
         </div>
       </div>
-
+  
     </div>
   </section>
+  
 
   <footer>
     <p>Mis XV - Micaela Mongelli</p>

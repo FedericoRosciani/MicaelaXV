@@ -404,3 +404,24 @@ footer{
 }
 
 
+.card-click{
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-overlay-link{
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border-radius: inherit;
+  }
+  
+  .card-click > *{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .card-click .btn{
+    z-index: 3;
+  }
+  
