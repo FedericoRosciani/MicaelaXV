@@ -7,7 +7,7 @@ function scrollDown(){
   }
   
   // COUNTDOWN
-  const targetDate = new Date("2026-12-02T00:00:00").getTime();
+  const targetDate = new Date("2026-12-06T00:00:00").getTime();
   
   function pad2(n){ return String(n).padStart(2, "0"); }
   
